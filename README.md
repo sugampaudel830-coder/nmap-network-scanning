@@ -29,7 +29,7 @@ The objective of this task is to perform a controlled network infrastructure sca
 ```bash
    echo "10.129.102.40  connected.htb" | sudo tee -a /etc/hosts
 
-
+---
 ## 🎥 Practical Demonstration Video
 You can watch the full, unlisted step-by-step video demonstration of this Nmap scan execution here:
 👉 [**Click Here to Watch the Nmap Scan Demo Video Walkthrough**](https://drive.google.com/file/d/1pOHb-Qgz5RePX5bAeshnFIkSFWaeWqK_/view?usp=sharing) 
