@@ -1,6 +1,6 @@
 # Internship Task: Basic Network Scanning with Nmap
 
-##  Objective
+## 📌 Objective
 The objective of this task is to perform a controlled network infrastructure scan against a target machine to identify active entry points, discover underlying service versions, map hostnames, and analyze potential security risks.
 
 ## 🛠️ Environment & Scope
@@ -12,7 +12,7 @@ The objective of this task is to perform a controlled network infrastructure sca
 
 ---
 
-##  Identified Open Ports & Services
+## 🔍 Identified Open Ports & Services
 
 | Port / Protocol | State | Service | Software / Version | Security Significance & Analyst Findings |
 | :--- | :--- | :--- | :--- | :--- |
@@ -22,15 +22,9 @@ The objective of this task is to perform a controlled network infrastructure sca
 
 ---
 
-## Analytical Insights & Recommendations
+## 💡 Analytical Insights & Recommendations
 
 1. **Operating System Footprint:** The service headers reveal `CentOS` and specific old package releases, indicating a legacy Linux environment.
 2. **Domain Mapping Target:** To interact with the web interface running on ports 80/443, the domain `connected.htb` must be appended to the local attacking machine's hosts file:
-```bash
+   ```bash
    echo "10.129.102.40  connected.htb" | sudo tee -a /etc/hosts
-
----
-## 🎥 Practical Demonstration Video
-You can watch the full, unlisted step-by-step video demonstration of this Nmap scan execution here:
-👉 [**Click Here to Watch the Nmap Scan Demo Video Walkthrough**](https://drive.google.com/file/d/1pOHb-Qgz5RePX5bAeshnFIkSFWaeWqK_/view?usp=sharing) 
-
