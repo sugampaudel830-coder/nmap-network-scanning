@@ -28,3 +28,11 @@ The objective of this task is to perform a controlled network infrastructure sca
 2. **Domain Mapping Target:** To interact with the web interface running on ports 80/443, the domain `connected.htb` must be appended to the local attacking machine's hosts file:
    ```bash
    echo "10.129.102.40  connected.htb" | sudo tee -a /etc/hosts
+
+
+   ---
+
+## 🎥 Practical Demonstration Video
+You can watch the full, unlisted step-by-step video demonstration of this Nmap scan execution here:
+
+👉 [**Click Here to Watch the Nmap Scan Demo Video Walkthrough**](https://drive.google.com/file/d/1pOHb-Qgz5RePX5bAeshnFIkSFWaeWqK_/view?usp=sharing)
